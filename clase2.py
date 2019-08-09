@@ -7,13 +7,14 @@
 #print("El total es", Total)
 
 #Ejemplo 2
-while True:
-    try:
-        salario=input("Digite el salario del trabajador")
-        break
-    except:
-        print("ingrese un numero")
-        patrono=salario*0.3
-        trabajador=salario*0.1
-        total=patrono+trabajador+salario
-        print("El total de cargas sociales es",total)
+#while True:
+#    try:
+#        salario=int(input("Digite el salario del trabajador"))
+#        patrono=salario*0.30
+#        trabajador=salario*0.10
+#        total=patrono+trabajador+salario
+#        print("El total de cargas sociales es",total)
+#        break
+#    except:
+#        print("ERROR, ingrese un numero!!!!")
+
